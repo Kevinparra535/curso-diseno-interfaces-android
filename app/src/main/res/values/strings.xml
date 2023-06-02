@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Platzi Music</string>
+
+    <!-- Login -->
+    <string name="logo_description">Spotify Logo</string>
+    <string name="login_subtitle">Millions of Songs free on Spotify</string>
+    <string name="login_copy">Discover, play and share your favorite songs with your friends.</string>
+
+
+    <!-- Forms  -->
+    <string name="email_input">Email</string>
+    <string name="password_input">Password</string>
+    <string name="login_text">Log in</string>
+    <string name="signup_text">Sign Up for Free!</string>
+    <string name="login_google_text">Continue with Google</string>
+    <string name="login_phone_text">Continue with Phone number</string>
+    <string name="login_facebook_text">Continue with Facebook</string>
+    <string name="login_apple_text">Continue with Apple</string>
+
+
 </resources>

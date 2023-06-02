@@ -1,26 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
     android:baselineAligned="false"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="25dp">
 
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/spotify_logo" />
 
     <TextView
-        android:id="@+id/tvMainTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="Hola mundo" />
-
-    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Escribe tu nombre"
-        android:background="@color/purple_200"
-        android:inputType="text" />
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/Poppins_Bold"
+        android:paddingHorizontal="20dp"
+        android:text="@string/login_subtitle"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/Poppins_Regular"
+        android:paddingHorizontal="20dp"
+        android:text="@string/login_copy"
+        android:textAlignment="center"
+        android:textColor="@color/variant_light_white"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/primary_ctas"
+        android:fontFamily="@font/Poppins_SemiBold"
+        android:padding="15dp"
+        android:text="@string/signup_text"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/secondary_ctas"
+        android:drawableStart="@drawable/phone_logo"
+        android:fontFamily="@font/Poppins_SemiBold"
+        android:padding="15dp"
+        android:text="@string/login_phone_text"
+        android:textColor="@color/white" />
 
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/secondary_ctas"
+        android:drawableStart="@drawable/google_logo"
+        android:fontFamily="@font/Poppins_SemiBold"
+        android:padding="15dp"
+        android:text="@string/login_google_text"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/secondary_ctas"
+        android:drawableStart="@drawable/facebook_logo"
+        android:fontFamily="@font/Poppins_SemiBold"
+        android:padding="15dp"
+        android:text="@string/login_facebook_text"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/secondary_ctas"
+        android:drawableStart="@drawable/apple_logo"
+        android:fontFamily="@font/Poppins_SemiBold"
+        android:padding="15dp"
+        android:text="@string/login_apple_text"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/black"
+        android:fontFamily="@font/Poppins_SemiBold"
+        android:padding="15dp"
+        android:text="@string/login_text"
+        android:textColor="@color/white" />
 
 </LinearLayout>
