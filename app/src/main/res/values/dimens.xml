@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aca van los tamanos de pantalla, alto, ancho, etc. Todas las medidas necesarias   -->
+    <dimen name="text_size">14sp</dimen>
+</resources>
